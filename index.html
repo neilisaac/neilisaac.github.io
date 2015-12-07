@@ -1,79 +1,33 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+---
+layout: default
+---
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title>Neil Isaac by neilisaac</title>
-  </head>
-
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Neil Isaac</h1>
-        <h2>software engineer and tinkerer</h2>
-        <a href="https://github.com/neilisaac/website" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
-<a id="about-me" class="anchor" href="#about-me" aria-hidden="true"><span class="octicon octicon-link"></span></a>About me</h3>
-
-<p>Manager of Engineering in Big Data at Kobo Inc.</p>
-
-<p>BASc in Computer Engineering at University of Toronto</p>
-
-<p>Software, Mobile Game Development, 3D Printing, Gadgets, Music, Squash</p>
-
-<p>Contact: mail at neilisaac dot ca</p>
-
-<h3>
-<a id="pharaohs-lock" class="anchor" href="#pharaohs-lock" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pharaoh's Lock</h3>
-
-<p>Spiffy puzzle game for Android.</p>
-
-<p>Download on <a href="https://play.google.com/store/apps/details?id=com.galdurgames.pharaohslock">Google Play</a> or <a href="http://galdurgames.com/">read more</a></p>
-
-<h3>
-<a id="github" class="anchor" href="#github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Github</h3>
-
-<p>Various projects and hacks on my <a href="https://github.com/neilisaac">github</a> page including:</p>
-
-<p><a href="https://github.com/neilisaac/lazycontract">lazycontract</a> is a library for declarative strongly-typed contract classes in Python (2 and 3 compatible.)</p>
-
-<p><a href="https://github.com/neilisaac/sparsebitvector">sparsebitvector</a> is an implementation of a sparse bit vector, similar to LLVM's SparseBitVector class in Go.</p>
-
-<p><a href="https://github.com/neilisaac/KeyboardClip">KeyboardClip</a> is an OpenSCAD design for a clip to merge the previous generation Apple bluetooth keyboard and magic touchpad.</p>
-        </section>
-
-        <aside id="sidebar">
-
-        </aside>
-      </div>
-    </div>
-
-            <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-339246-3");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
-</html>
+<div class="home">
+  <div class="avatar">
+    <img src="avatar.png">
+  </div>  
+    
+  <ul class="post-list">
+    
+    <li>
+        <article class="post">
+            <header class="post-header">
+                <h1 class="post-title">About me</h1>
+            </header>
+            <p>Presently Sr. Manager of Engineering in Big Data at Rakuten Kobo Inc.</p>
+            <p>BASc in Computer Engineering at University of Toronto</p>
+            <p>Software, Mobile Game Development, 3D Printing, Gadgets, Music, Squash</p>
+        </article>
+    </li>
+    
+    {% for post in site.posts %}
+    <li>
+        <article class="post">
+            <h2>{{ post.title }}</h2>
+            {{ post.content }}
+        </article>
+    </li>
+    {% endfor %}
+    
+  </ul>
+</div>

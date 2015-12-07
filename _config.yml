@@ -1,0 +1,11 @@
+# Site settings
+title: Neil Isaac
+email: mail at neilisaac dot ca
+description: software engineer and tinkerer
+baseurl: ""
+url: "http://neilisaac.ca"
+github_username: neilisaac
+markdown: kramdown
+links:
+  - title: Code
+    url: https://github.com/neilisaac
