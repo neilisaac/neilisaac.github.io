@@ -14,7 +14,7 @@ permalink: /resume/
 
 **Rakuten Kobo: Sr. Manager Engineering in Big Data** ~ *April 2015 - Present*
 
- * Team lead of the Big Data Engineering, team of 3 softare engineers.
+ * Team lead of the Big Data Engineering, team of 3 software engineers.
  * Responsible for design and productization of new projects and maintenance of existing ones.
  * Support the Big Data research teams.
  * Strong focus on systems design, testing, deployment.
@@ -24,7 +24,7 @@ permalink: /resume/
 
  * eBook Content Analysis in real-time pipeline.
  * Website personalization backend.
- * Optimization of the Top 50 calculations for relevence and conversion.
+ * Optimization of the Top 50 calculations for relevance and conversion.
  * A/B testing of all projects targeting revenue growth.
  * Hadoop cluster maintenance. 
 
