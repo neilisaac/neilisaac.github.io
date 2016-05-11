@@ -6,6 +6,8 @@ baseurl: ""
 url: "http://neilisaac.ca"
 github_username: neilisaac
 markdown: kramdown
+gems:
+  - jekyll-seo-tag
 links:
   - title: Code
     url: https://github.com/neilisaac
