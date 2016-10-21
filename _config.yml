@@ -9,5 +9,7 @@ markdown: kramdown
 gems:
   - jekyll-seo-tag
 links:
-  - title: Code
+  - title: GitHub
     url: https://github.com/neilisaac
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/neil-isaac
