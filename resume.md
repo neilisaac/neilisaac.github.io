@@ -42,6 +42,7 @@ permalink: /resume/
 
 **AMD: Physical Design Engineer** ~ *May 2010 - August 2011*
 
+ * 16 month internship.
  * Developed program to fix chip layout for power connectivity issues.
  * Experience using commercial physical design tools and APIs including OpenAccess.
  * Experience writing large scale, high performance Python code.
