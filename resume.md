@@ -12,13 +12,19 @@ permalink: /resume/
  * Cumulative grade point average of 3.32.
  * [Course list](/education)
 
-**Rakuten Kobo: Sr. Manager Engineering in Big Data** ~ *April 2015 - Present*
+**Kindred Systems: Sr. Software Engineer** ~ *October 2016 - Present*
 
- * Team lead of the Big Data Engineering, team of 3 software engineers.
+ * Software systems design.
+ * Robotics and AI software integration.
+ * Implementation and advocacy for DevOps practices. 
+
+**Rakuten Kobo: Sr. Manager Engineering in Big Data** ~ *April 2015 - October 2016*
+
+ * Team lead of the Big Data Engineering team.
+ * Managed team of 3 software engineers.
  * Responsible for design and productization of new projects and maintenance of existing ones.
  * Support the Big Data research teams.
  * Strong focus on systems design, testing, deployment.
- * Cool projects.
 
 **Rakuten Kobo: Systems Engineer in Big Data** ~ *November 2013 - April 2015*
 
@@ -65,6 +71,6 @@ permalink: /resume/
    Udacity, Sebastian Thrun and Peter Norvig ~ *October-December 2011*
 
 **Programming**: Python, Java, C, C++, C#, Csh, Bash  
-**Utilities**: Debuggers, Subversion, Git, Doxygen, UNIX Tools  
+**Utilities**: Docker, Debuggers, Subversion, Git, Doxygen, UNIX Tools  
 **Markup Languages**: HTML, Javascript, CSS, Latex  
 **Operating Systems**: Linux, Android  
